@@ -1,0 +1,30 @@
+# Binaries
+/Binaries
+
+# Plugin Intermediate and Binaries
+/Plugins/*/Intermediate
+/Plugins/*/Binaries
+
+# Generated project files
+/DerivedDataCache
+/Intermediate
+/Saved
+/Build/Receipts
+/Build/WindowsNoEditor
+*.sdf
+*.sln
+*.v12.suo
+*.opensdf
+*.xcodeproj
+*.xcworkspace/
+*.VC.opendb
+.vs/
+
+# Temporary VS files
+/enc_temp_folder
+*.TMP
+
+# OS generated files
+Thumbs.db
+*.db
+
