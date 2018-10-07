@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "RichTextBlockDecorator.h"
+#include "Components/RichTextBlockDecorator.h"
 #include "RichTextBlockInlineDecorator.generated.h"
 
 UCLASS()

@@ -4,7 +4,7 @@
 #include "UObject/SoftObjectPtr.h"
 #include "Rendering/DrawElements.h"
 #include "Framework/Text/SlateTextRun.h"
-#include "RichTextBlock.h"
+#include "Components/RichTextBlock.h"
 
 class FDefaultRichTextDecorator : public ITextDecorator
 {
