@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "RichTextBlock Inline Decorator",
+	"Description": "Rich Text Block decorator enabling inline text styling",
+	"Category": "User Interface",
+	"CreatedBy": "Acren",
+	"CreatedByURL": "https://www.unrealengine.com/marketplace/profile/Acren",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "4.20.0",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "RichTextBlockInlineDecorator",
+			"Type": "Developer",
+			"LoadingPhase": "Default"
+		}
+	]
+}
