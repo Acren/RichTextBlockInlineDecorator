@@ -3,7 +3,7 @@
 	"Version": 1,
 	"VersionName": "1.0",
 	"FriendlyName": "RichTextBlock Inline Decorator",
-	"Description": "Rich Text Block decorator enabling inline text styling",
+	"Description": "Allows inline styling of text using <span> tags, supporting functionality that used to exist in the engine pre-4.20",
 	"Category": "User Interface",
 	"CreatedBy": "Acren",
 	"CreatedByURL": "https://www.unrealengine.com/marketplace/profile/Acren",
@@ -17,7 +17,7 @@
 	"Modules": [
 		{
 			"Name": "RichTextBlockInlineDecorator",
-			"Type": "Developer",
+			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
 	]
