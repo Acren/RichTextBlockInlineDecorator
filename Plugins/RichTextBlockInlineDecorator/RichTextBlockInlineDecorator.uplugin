@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
-	"Version": 1,
-	"VersionName": "1.0",
+	"Version": 2,
+	"VersionName": "1.0.1",
 	"FriendlyName": "RichTextBlock Inline Decorator",
 	"Description": "Allows inline styling of text using <span> tags, supporting functionality that used to exist in the engine pre-4.20",
 	"Category": "User Interface",
@@ -10,7 +10,7 @@
 	"DocsURL": "https://forums.unrealengine.com/community/community-content-tools-and-tutorials/1536690-inline-styling-decorator-for-rich-text-block",
 	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/OfferIDGoesHere",
 	"SupportURL": "https://forums.unrealengine.com/community/community-content-tools-and-tutorials/1536690-inline-styling-decorator-for-rich-text-block",
-	"EngineVersion": "4.20.0",
+	"EngineVersion": "4.21.0",
 	"CanContainContent": false,
 	"IsBetaVersion": false,
 	"Installed": false,
