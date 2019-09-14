@@ -1,9 +1,8 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.21",
+	"EngineAssociation": "4.22",
 	"Category": "",
 	"Description": "",
-	"Enterprise": true,
 	"Modules": [
 		{
 			"Name": "InlineDecoProject",
@@ -15,13 +14,5 @@
 		}
 	],
 	"Plugins": [
-		{
-			"Name": "VariantManager",
-			"Enabled": false
-		},
-		{
-			"Name": "VariantManagerContent",
-			"Enabled": false
-		}
 	]
 }
