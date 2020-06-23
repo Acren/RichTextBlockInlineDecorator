@@ -1,5 +1,5 @@
-# UE4 RichTextBlock Inline Decorator
-This is a decorator for the RichTextBlock widget in engine version 4.20 and later.
+# RichTextBlock Inline Decorator
+This is a decorator for the RichTextBlock widget in Unreal Engine version 4.20 and later.
 
 ![Demo Image](https://i.imgur.com/YQcisz0.png)
 
