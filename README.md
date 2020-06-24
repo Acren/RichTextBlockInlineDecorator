@@ -1,4 +1,7 @@
 # RichTextBlock Inline Decorator
+
+## Also on the [Unreal Marketplace](https://www.unrealengine.com/marketplace/en-US/product/inline-styling-decorator-for-rich-text-block)
+
 This is a decorator for the RichTextBlock widget in Unreal Engine version 4.20 and later.
 
 ![Demo Image](https://i.imgur.com/YQcisz0.png)
