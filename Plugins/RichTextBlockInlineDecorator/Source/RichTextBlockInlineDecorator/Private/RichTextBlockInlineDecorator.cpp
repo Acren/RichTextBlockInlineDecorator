@@ -179,8 +179,8 @@ URichTextBlockInlineDecorator::URichTextBlockInlineDecorator(const FObjectInitia
 
 TSharedPtr<ITextDecorator> URichTextBlockInlineDecorator::CreateDecorator(URichTextBlock* InOwner)
 {
-	FSlateFontInfo DefaultFont = InOwner->GetDefaultTextStyle().Font;
-	FLinearColor DefaultColor = InOwner->GetDefaultTextStyle().ColorAndOpacity.GetSpecifiedColor();
+	FSlateFontInfo DefaultFont = InOwner->GetCurrentDefaultTextStyle().Font;
+	FLinearColor DefaultColor = InOwner->GetCurrentDefaultTextStyle().ColorAndOpacity.GetSpecifiedColor();
 	return MakeShareable(new FDefaultRichTextDecorator(this, DefaultFont, DefaultColor));
 }
 
