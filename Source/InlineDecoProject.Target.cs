@@ -8,6 +8,7 @@ public class InlineDecoProjectTarget : TargetRules
 	public InlineDecoProjectTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
+		DefaultBuildSettings = BuildSettingsVersion.V2;
 
 		ExtraModuleNames.AddRange( new string[] { "InlineDecoProject" } );
 	}
