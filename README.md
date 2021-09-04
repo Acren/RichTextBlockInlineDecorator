@@ -4,7 +4,7 @@
 
 This is a decorator for the RichTextBlock widget in Unreal Engine version 4.20 and later.
 
-![Demo Image](https://i.imgur.com/YQcisz0.png)
+![Demo Image](https://i.imgur.com/BJFxcN9.png)
 
 Before Unreal 4.20, the RichTextBlock existed as an *experimental* class with slightly different functionality by default.
 Developers could add **<span\> tags** inline around sections of text changing their font, size, color, and emphasis.
