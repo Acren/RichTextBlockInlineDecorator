@@ -1,16 +1,43 @@
 # Binaries
 /Binaries
+*.pdb
+*.dll
 
 # Plugin Intermediate and Binaries
 /Plugins/*/Intermediate
 /Plugins/*/Binaries
+!Plugins/**/ThirdParty/**
+
+# Builds
+Build/*
+
+# Releases
+Releases/*
+
+# Whitelist PakBlacklist-<BuildConfiguration>.txt files
+!Build/*/
+Build/*/**
+!Build/*/PakBlacklist*.txt
+!Build/*.bat
+
+# Don't ignore platform resources
+!Build/XboxOne/**
+Build/XboxOne/Symbols/**
+Build/XboxOne/FileOpenOrder/**
+!Build/PS4/**
+Build/PS4/FileOpenOrder/**
+Build/PS4/Symbols/**
+Build/PS4/sce_module/**
+!Build/Switch/**
+Build/Switch/FileOpenOrder/**
+
+# Don't ignore icon files in Build
+!Build/**/*.ico
 
 # Generated project files
 /DerivedDataCache
 /Intermediate
 /Saved
-/Build/Receipts
-/Build/WindowsNoEditor
 *.sdf
 *.sln
 *.v12.suo
@@ -27,4 +54,18 @@
 # OS generated files
 Thumbs.db
 *.db
+.DS_Store
+
+# Art binary source
+*.fbx
+
+# Visual Studio Code files
+# Could unignore certain .json settings files if we need to
+.vscode/*
+
+# Merge files
+*.orig
+
+# Rider files
+.idea/*
 
