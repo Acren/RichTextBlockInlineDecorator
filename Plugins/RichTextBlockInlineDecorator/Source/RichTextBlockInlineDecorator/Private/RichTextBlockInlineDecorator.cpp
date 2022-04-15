@@ -46,18 +46,11 @@ public:
 	{
 	}
 
-	virtual int32 OnPaint(const FPaintArgs& Args,
-		const FTextLayout::FLineView& Line,
-		const TSharedRef< ILayoutBlock >& Block,
-		const FTextBlockStyle& DefaultStyle,
-		const FGeometry& AllottedGeometry,
-		const FSlateRect& ClippingRect,
-		FSlateWindowElementList& OutDrawElements,
-		int32 LayerId,
-		const FWidgetStyle& InWidgetStyle,
-		bool bParentEnabled) const override
+	virtual int32 OnPaint(const FPaintArgs& PaintArgs, const FTextArgs& TextArgs, const FGeometry& AllottedGeometry,
+	                      const FSlateRect& MyCullingRect, FSlateWindowElementList& OutDrawElements, int32 LayerId,
+	                      const FWidgetStyle& InWidgetStyle, bool bParentEnabled) const override
 	{
-		FSlateTextRun::OnPaint(Args, Line, Block, DefaultStyle, AllottedGeometry, ClippingRect, OutDrawElements, LayerId, InWidgetStyle, bParentEnabled);
+		FSlateTextRun::OnPaint(PaintArgs, TextArgs, AllottedGeometry, MyCullingRect, OutDrawElements, LayerId, InWidgetStyle, bParentEnabled);
 
 		return LayerId;
 	}
